@@ -95,6 +95,7 @@ section.secondary h3 {
 
 .img-responsive {
   width: 100%;
+  filter: brightness(120%) contrast(90%);
 }
 
 main {
@@ -169,9 +170,13 @@ main p {
 }
 
 .map {
-  aspect-ratio: 12 / 9;
+  aspect-ratio: 13 / 9;
   margin: 30px 0;
   width: 100%;
+}
+
+.insta-post {
+  margin: 30px 0;
 }
 
 footer {
