@@ -89,7 +89,7 @@ section.secondary h3 {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 main {
@@ -161,6 +161,12 @@ main p {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.map {
+  aspect-ratio: 16 / 9;
+  margin: 30px 0;
+  width: 100%;
 }
 
 footer {
